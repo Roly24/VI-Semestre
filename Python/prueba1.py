@@ -11,3 +11,4 @@ app_control = Control()
 app_control.master.geometry('300x150')
 app_control.master.bind('<Key>', lambda i : Control().PressAnyKey(i))
 app_control.master.mainloop()
+..
